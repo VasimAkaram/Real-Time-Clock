@@ -6,7 +6,7 @@
 }
 body {
   height: 100vh;
-  background-image: linear-gradient(135deg, #8052ec, #d161ff);
+  background-image: linear-gradient(135deg, #49e63e, #694bee);
 }
 .clock {
   width: 31.25em;
@@ -22,20 +22,32 @@ body {
 }
 .clock div {
   position: relative;
-  background-color: #ffffff;
+  background-color: #42eb53;
   height: 100%;
   width: 3.2em;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 2.5em;
-  color: #150c41;
+  color: #313131;
   border-radius: 0.4em;
-  box-shadow: 0 1em 2em rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1em 2em rgba(0, 0, 0.2, 0.4);
   letter-spacing: 0.05em;
 }
 .clock span {
   font-weight: 800;
   font-size: 2.5em;
-  color: #ffffff;
+  color: #1a1819;
+}
+.Text{
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: rgb(246, 239, 240);
+  font-size: 3.5em;
+  font-weight: 550;
+  margin-top: 8%;
+  max-height: fit-content;
+  letter-spacing: 0.04em;
 }
